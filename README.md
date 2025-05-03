@@ -11,7 +11,7 @@ Ball point pen w/ capture dialog
 
 ![image](https://github.com/user-attachments/assets/93624791-9da8-4bc9-9653-676e2a8ca3cc)
 
-Hair (its very thing, probably ~0.017 mm)
+Hair (its very thin, probably ~0.10 mm)
 
 
 To Do:
