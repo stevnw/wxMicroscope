@@ -1,5 +1,5 @@
 # wxMicroscope
-A wxpython based gui for a Jiusion USB digital microscope (B06WD843ZM)
+A wxpython based gui for USB digital microscopes (e.g. Jiusion B06WD843ZM)
 
 Dependencies:
 
