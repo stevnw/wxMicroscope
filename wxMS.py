@@ -1,3 +1,8 @@
+"""
+This is a program made specifically for the cheap USB microscopes (e.g. Jiusion B06WD843ZM), made by stevnw (https://github.com/stevnw)
+I plan to add some more features at some point...
+
+"""
 import cv2
 import wx
 import threading
