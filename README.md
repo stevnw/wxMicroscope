@@ -2,6 +2,9 @@
 A wxpython based gui for a Jiusion USB digital microscope (B06WD843ZM)
 
 ![image](https://github.com/user-attachments/assets/235fdbf1-b1f9-4410-aa93-cfbc0815760d)
+![image](https://github.com/user-attachments/assets/93624791-9da8-4bc9-9653-676e2a8ca3cc)
+
+
 
 
 To Do:
