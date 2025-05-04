@@ -9,5 +9,8 @@ You will need the wxPython and opencv-python libraries to use this program.
 
 This is a comprehensive overview of the currently implemented features in version 0.1.2a of wxMS.py
 
-1. Annotation:
+1. <b>Annotation:</b>
+
+    Click the annotation button and you can then pick a colour using the colour wheel:
+   
 
