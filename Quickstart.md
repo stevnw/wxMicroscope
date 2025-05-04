@@ -14,7 +14,10 @@ To launch:
 
 This is a comprehensive overview of the currently implemented features in version 0.1.2a of wxMS.py.
 
-1. <b>Annotation:</b>
+1. <b>Capture:</b>
+    Click "Capture" to take picture. Any annotations made will be saved onto the image.
+
+2. <b>Annotation:</b>
 
     Click the annotation button and you can then pick a colour using the colour wheel:
    
