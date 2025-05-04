@@ -5,13 +5,11 @@ Dependencies:
 
 <pre>  pip install wxpython opencv-python </pre>
 
-![image](https://github.com/user-attachments/assets/235fdbf1-b1f9-4410-aa93-cfbc0815760d)
+![image](https://github.com/user-attachments/assets/3893ca3f-d2c7-4558-8a28-9a350cc0cf92)
+Version 0.1.2a - annotation and pixel measurement system
 
-Ball point pen w/ capture dialog
-
-![image](https://github.com/user-attachments/assets/93624791-9da8-4bc9-9653-676e2a8ca3cc)
-
-Hair (its very thin, probably less than 0.10 mm)
+![snapshot-000004](https://github.com/user-attachments/assets/99fdd816-b9cf-4cbd-8ec6-d48b4462da5e)
+Captured image, with annotations
 
 
 To Do:
