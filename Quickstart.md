@@ -1,13 +1,18 @@
 # wxMicroscope Quick Start Guide
 
 ## Dependencies issues
-You will need the wxPython and opencv-python libraries to use this program. 
+
+You will need the wxPython and opencv-python libraries to use this program.
 
 <pre>  pip install wxpython opencv-python </pre>
 
+To launch:
+
+<pre> python wxMS.py </pre>
+
 ## Features
 
-This is a comprehensive overview of the currently implemented features in version 0.1.2a of wxMS.py
+This is a comprehensive overview of the currently implemented features in version 0.1.2a of wxMS.py.
 
 1. <b>Annotation:</b>
 

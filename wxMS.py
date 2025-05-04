@@ -174,10 +174,10 @@ class WebcamPanel(wx.Panel): # This is the control panel buttons and logic
 
     def on_export_button(self, event): 
 		
-		"""export to csv in format: label, length_px -> will allow for the conversion of px to irl values... A hard coded conversion will be inaccurate if
-			other users use different USB microscopes with differnt focal lengths I am pretty sure - so this would be a stupid idea... I think the user should be able to 
-			use something of known length value to calibrate their own thing - this will likely be a session by session config option?
-		"""
+		#export to csv in format: label, length_px -> will allow for the conversion of px to irl values... A hard coded conversion will be inaccurate if
+		#other users use different USB microscopes with differnt focal lengths I am pretty sure - so this would be a stupid idea... I think the user should be able to 
+		#use something of known length value to calibrate their own thing - this will likely be a session by session config option?
+		
         if not self.annotations:
             dlg = wx.MessageDialog(self, "No annotations to export.", "Export CSV", wx.OK | wx.ICON_INFORMATION)
             dlg.ShowModal()
