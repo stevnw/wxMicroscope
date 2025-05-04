@@ -39,5 +39,3 @@ This is a comprehensive overview of the currently implemented features in versio
         L2,72  
    </pre>
 
-   
-   
