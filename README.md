@@ -5,13 +5,22 @@ Dependencies:
 
 <pre>  pip install wxpython opencv-python </pre>
 
-![image](https://github.com/user-attachments/assets/3893ca3f-d2c7-4558-8a28-9a350cc0cf92)
+
+![image](https://github.com/user-attachments/assets/682885fb-a5d4-4d8f-83b9-3b5767a99a7d)
 
 Version 0.1.2a - annotation and pixel measurement system
 
-![snapshot-000004](https://github.com/user-attachments/assets/99fdd816-b9cf-4cbd-8ec6-d48b4462da5e)
+
+![snapshot-000005](https://github.com/user-attachments/assets/275dc017-8965-4d46-93e6-4211e0536a5c)
 
 Captured image, with annotations
+
+Exported data:
+<pre>
+label,length_px
+L1,322
+L2,72  
+</pre>
 
 
 To Do:
