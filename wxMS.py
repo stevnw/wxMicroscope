@@ -13,7 +13,7 @@ class WebcamPanel(wx.Panel):
     def __init__(self, parent):
         super().__init__(parent)
 
-        # Should open the camera - if not cycle through the /dev/videoX - e.g. ls /dev/video* -> should return something like /dev/video0
+        # Should open the camera - if not cycle through the /dev/videoX - e.g. ls /dev/video* -> should return something like /dev/video0... might be an idea to add a settings window at some point**
         self.capture = cv2.VideoCapture(0)  # or '/dev/video0' instead of 0
         if not self.capture.isOpened():
             print("Error: Could not open webcam.") # just in case really

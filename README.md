@@ -11,13 +11,14 @@ Ball point pen w/ capture dialog
 
 ![image](https://github.com/user-attachments/assets/93624791-9da8-4bc9-9653-676e2a8ca3cc)
 
-Hair (its very thin, probably ~0.10 mm)
+Hair (its very thin, probably less than 0.10 mm)
 
 
 To Do:
 - [ ] Add a toggleable scale overlay
 - [ ] Add a pointer marking, and distance measuring system
 - [ ] Filters (nothing stupid though)
+- [ ] Settings (gui + config thingy??)
 
 ____
 
