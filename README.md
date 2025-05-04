@@ -25,7 +25,7 @@ L2,72
 
 To Do:
 - [ ] Add a toggleable scale overlay
-- [ ] Add a pointer marking, and distance measuring system
+- [x] Add a pointer marking, and distance measuring system
 - [ ] Filters (nothing stupid though)
 - [ ] Settings (gui + config thingy??)
 
