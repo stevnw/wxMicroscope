@@ -6,9 +6,11 @@ Dependencies:
 <pre>  pip install wxpython opencv-python </pre>
 
 ![image](https://github.com/user-attachments/assets/3893ca3f-d2c7-4558-8a28-9a350cc0cf92)
+
 Version 0.1.2a - annotation and pixel measurement system
 
 ![snapshot-000004](https://github.com/user-attachments/assets/99fdd816-b9cf-4cbd-8ec6-d48b4462da5e)
+
 Captured image, with annotations
 
 
