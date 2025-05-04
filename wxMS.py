@@ -12,6 +12,9 @@ import re
 class WebcamPanel(wx.Panel):
     def __init__(self, parent):
         super().__init__(parent)
+        
+        self.parent = parent  # Store reference to parent frame
+        self.mouse_pos = (0, 0)  # Initialize mouse position
 
         # Should open the camera - if not cycle through the /dev/videoX - e.g. ls /dev/video* -> should return something like /dev/video0... might be an idea to add a settings window at some point**
         self.capture = cv2.VideoCapture(0)  # or '/dev/video0' instead of 0
@@ -26,6 +29,9 @@ class WebcamPanel(wx.Panel):
         self.timer.Start(30)  # Refresh every 30 ms (~33 FPS)
 
         self.bitmap = wx.StaticBitmap(self) # to show the feed
+        
+        # Bind mouse movement event to track coordinates
+        self.bitmap.Bind(wx.EVT_MOTION, self.on_mouse_move)
 
         # button stuff
         self.sizer = wx.BoxSizer(wx.VERTICAL)
@@ -50,8 +56,19 @@ class WebcamPanel(wx.Panel):
         self._thread = threading.Thread(target=self.capture_frames)
         self._thread.start()
 
-        # set counter based on existing images
-        self.snapshot_counter = self.get_next_snapshot_number()
+        self.snapshot_counter = self.get_next_snapshot_number() # set counter based on existing images
+
+    def on_mouse_move(self, event):
+        self.mouse_pos = event.GetPosition() # Get mouse position relative to the bitmap
+        
+        # mouse coord & status bar stuff
+        version_text = "Version: 0.1.2a"
+        coords_text = f"X: {self.mouse_pos[0]} Y: {self.mouse_pos[1]}"
+        status_text = f"{version_text} | {coords_text}"
+        
+        self.parent.SetStatusText(status_text)
+        
+        event.Skip()
 
     def capture_frames(self):
         while self._capturing:
@@ -106,7 +123,6 @@ class MainFrame(wx.Frame):
         self.Bind(wx.EVT_CLOSE, self.on_close)
 
         self.CreateStatusBar()
-        self.SetStatusText("Version: 0.1.1a")
 
     def on_close(self, event):
         if self.cam_panel:
