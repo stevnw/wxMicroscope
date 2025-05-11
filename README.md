@@ -24,10 +24,21 @@ L2,72
 
 
 To Do:
-- [ ] Add a toggleable scale overlay
+- [ ] Add a toggleable scale overlay?
 - [x] Add a pointer marking, and distance measuring system
 - [ ] Filters (nothing stupid though)
 - [ ] Settings (gui + config thingy??)
+
+____
+
+## Windows 10 Notes
+
+![image](https://github.com/user-attachments/assets/7a1d545e-7d00-4828-83be-2fcbc90b57cc)
+
+It runs... There is a constant screen flicker. Why? Currently no idea... Camera seems fine in the MS Camera
+
+It is not a consistent flicker, its very random. Problem for future Steven
+
 
 ____
 
